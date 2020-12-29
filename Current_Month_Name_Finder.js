@@ -17,6 +17,9 @@ function month_name(month_numerical_value) {
     return month_name;
 }
 
+//Generate month_numerical_value from date function 
+var month_numerical_value = current_Date.getMonth()+1;
+
 //print in month name in the consol. 
 console.log("Current month name is '" + month_name(current_Date.getMonth()) + "'.");
-console.log("Current month name numerical value is '" + current_Date.getMonth() + "'.");
+console.log("Current month name numerical value is '" + month_numerical_value + "'.");
