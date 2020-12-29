@@ -18,6 +18,7 @@ function month_name(month_numerical_value) {
 }
 
 //Generate month_numerical_value from date function 
+//add '1' because from date function month_numerical_value starts from 0 as array.
 var month_numerical_value = current_Date.getMonth()+1;
 
 //print in month name in the consol. 
